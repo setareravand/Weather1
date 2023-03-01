@@ -22,7 +22,7 @@ public class DetailsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        binding = FragmentDetailBinding.inflate(inflater, container, false);
+        binding= FragmentDetailBinding.inflate(inflater, container , false);
         return binding.getRoot();
-    }
+}
 }
