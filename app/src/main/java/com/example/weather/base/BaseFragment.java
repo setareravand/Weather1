@@ -1,6 +1,6 @@
 package com.example.weather.base;
 
-import androidx.fragment.app.Fragment;
+import android.app.Fragment;
 
 public class BaseFragment extends Fragment {
 }
