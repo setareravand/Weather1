@@ -5,19 +5,17 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.example.weather.R;
-import com.example.weather.databinding.FragmentDetailsBinding;
-import com.example.weather.databinding.FragmentHomeBinding;
+import com.example.weather.databinding.FragmentProfileBinding;
 
 public class ProfileFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentProfileBinding binding;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentProfileBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
